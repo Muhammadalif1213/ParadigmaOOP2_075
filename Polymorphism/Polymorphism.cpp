@@ -8,7 +8,7 @@ public:
 		//cout << "Pesan dari seseorang" << endl;
 	//}
 	//virtual void cetak() = 0;
-	void cetak() {
+	virtual void cetak() {
 
 	}
 };
