@@ -32,3 +32,9 @@ public:
 
 };
 
+int main() {
+	seseorang* orang;
+	joko a;
+	lia b;
+
+}
