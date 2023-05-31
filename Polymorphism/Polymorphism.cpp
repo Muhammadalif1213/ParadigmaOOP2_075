@@ -37,4 +37,12 @@ int main() {
 	joko a;
 	lia b;
 
+	orang = &a;
+	orang->pesan();
+	orang = &b;
+	orang->pesan();
+	a.seseorang::pesan();
+	b.seseorang::pesan();
+
+	return 0;
 }
