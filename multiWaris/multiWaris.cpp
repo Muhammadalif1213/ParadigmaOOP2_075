@@ -4,7 +4,7 @@ using namespace std;
 
 class orang {
 public:
-	srting nama;
+	string nama;
 
 	orang(string pNama) :
 		nama(pNama) {
@@ -12,5 +12,18 @@ public:
 	}
 	~orang() {
 		cout << "orang dihapus\n" << endl;
+	}
+};
+
+class manusia {
+public:
+	string JenisKelamin;
+
+	manusia(string pJenisKelamin) :
+		JenisKelamin(pJenisKelamin) {
+		cout << "manusia dibuat\n" << endl;
+	}
+	~manusia() {
+		cout << "manusia dihapus\n" << endl;
 	}
 };
